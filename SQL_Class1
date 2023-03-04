@@ -2,3 +2,20 @@ Create database Bigdatapratice;
 
 #for showing list of databases;
 show DATABASES;
+
+create DATABASE test;
+
+drop database test; ## to delete the database
+
+use Bigdatapratice;
+
+-- command to create a TABLE
+Create table if not exists employee
+(
+    id int,
+    name varchar(50)
+);
+
+show tables;
+
+show create table employee;  ## shows the schema of already created table;
