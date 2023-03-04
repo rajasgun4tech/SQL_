@@ -1,1 +1,4 @@
 Create database Bigdatapratice;
+
+#for showing list of databases;
+show DATABASES;
